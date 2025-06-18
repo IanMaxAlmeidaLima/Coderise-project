@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@400..700&family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-color: #200F53;
+}
+
+header{
+    height: 7.5rem;
+    display: flex;
+    justify-content: baseline;
+    background-color: #040913;
+}
+
+div[vw-access-button],
+div[vw-plugin-wrapper] {
+  display: none;
+}
+
+.header_side1{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+}
+
+.coderise_logo{
+    margin-top: 1.5rem;
+    height: 6rem;
+    width: 8rem;
+}
+
+.header_side1 h1{
+    font-family: 'Archivo';
+    margin-bottom: 0rem;
+    color: white;
+    height: 2.5rem;
+    font-weight: 700;
+}
+
+.header_side2{
+    display: flex;
+    width: 12rem;
+    margin-left: 57%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.iniciar{
+    background-color: #FF4500;
+    font-family: 'Archivo';
+    border-radius: 5rem;
+    border-style: none;
+    font-size: 1.2rem;
+    color: white;
+    height: 3rem;
+    width: 10rem;
+}
+
+.hamburger_btn{
+    background-color: transparent;
+    border-style: none;
+    margin-top: 0.7rem;
+    margin-left: 15%;
+    height: 3rem;
+    width: 3rem;
+}
+
+div[vw-access-button],
+div[vw-plugin-wrapper] {
+  display: none;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.normas{
+    background-color: rgba(83, 49, 185, 0.638);
+    font-family: 'Archivo';
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    margin-left: 20%;
+    margin-top: 10%;
+    color: white;
+    width: 62%;
+}
+
+.normas p{
+    width: 85%;
+    margin-left: 9%;
+}
+
+.return{
+    margin-left: 20%;
+    margin-top: 4%;
+}
+
+h3{
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family: 'Archivo'; 
+}
+
+.return button{
+    color: white;
+    font-family: 'Archivo';
+    background-color: #FF4500;
+    border-radius: 1.5rem;
+    border-style: none;
+    font-size: 1rem;
+    width: 10rem;
+    height: 2.6rem;
+}

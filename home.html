@@ -9,6 +9,18 @@
     <link rel = "icon" href = "src/img/coderise-logo-removebg-preview.png">
 </head>
 <body>
+
+    <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+
     <header>
         <div class="header_side1">
             <figure><img src="src/img/coderise-logo-removebg-preview.png" alt="" class="coderise_logo"></figure>
@@ -60,17 +72,19 @@
 
             <div class="opcoes" id = "opcoes">
                 <div class="opc-icons">
-                    <button>
+                    <button id = "acess">
                         <figure><img src="src/img/profile-candidate.png" alt="" class="profileIcon"></figure>
                     </button>
     
-                    <button>
-                        <figure><img src="src/img/telephone.png" alt="" class="profileIcon"></figure>
+                    <button id = "suporte">
+                        <figure><img src="src/img/telephone.png" alt="" class= "telefone"></figure>
                     </button>
     
-                    <button>
-                        <figure><img src="src/img/lock.png" alt="" class="profileIcon"></figure>
-                    </button>
+                    <a href="politicas.html">
+                        <button id = "politica">
+                            <figure><img src="src/img/lock.png" alt="" class="cadeado"></figure>
+                        </button>
+                    </a>
                 </div>
 
                 <div class="opc-legendas">

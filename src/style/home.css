@@ -21,6 +21,11 @@ header{
     background-color: #040913;
 }
 
+div[vw-access-button],
+div[vw-plugin-wrapper] {
+  display: none;
+}
+
 .header_side1{
     display: flex;
     align-items: center;
@@ -685,7 +690,7 @@ header{
 }
 
 .opc-legendas p{
-    margin-bottom: 18%;
+    margin-bottom: 15%;
     margin-left: 10%;
     width: 100%;
 }
