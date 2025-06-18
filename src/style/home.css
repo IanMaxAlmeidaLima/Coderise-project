@@ -694,3 +694,35 @@ div[vw-plugin-wrapper] {
     margin-left: 10%;
     width: 100%;
 }
+
+.perfil-opc{
+    color: white;
+    font-size: 'Archivo';
+    position: absolute;
+    width: 13rem;
+    background-color: black;
+    border-radius: 1rem;
+    left: 79%;
+}
+
+.perfil-opc button{
+    background-color: transparent;
+    border-style: none;
+}
+
+.perfil-opc p{
+    margin-top: 2%;
+}
+
+.login{
+    display: flex;
+    justify-content: baseline;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.cadastro{
+    display: flex;
+    justify-content: baseline;
+    margin-left: 8%;
+}
