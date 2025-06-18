@@ -703,6 +703,8 @@ div[vw-plugin-wrapper] {
     background-color: black;
     border-radius: 1rem;
     left: 79%;
+    display: none;
+    flex-direction: column;
 }
 
 .perfil-opc button{

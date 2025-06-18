@@ -5,9 +5,20 @@ const divOpcoes = document.getElementById('opcoes');
 
 btnOpcoes.addEventListener('click', () => {
   if (divOpcoes.style.display === 'none' || divOpcoes.style.display === '') {
-    divOpcoes.style.display = 'flex';  // mostra
+    divOpcoes.style.display = 'flex';
   } else {
-    divOpcoes.style.display = 'none';   // esconde
+    divOpcoes.style.display = 'none';
+  }
+});
+
+const iniciar = document.getElementById('iniciar');
+const perfil = document.getElementById('perfil-opc');
+
+iniciar.addEventListener('click', () => {
+  if (perfil.style.display === 'none' || perfil.style.display === '') {
+    perfil.style.display = 'flex';
+  } else {
+    perfil.style.display = 'none';
   }
 });
 
