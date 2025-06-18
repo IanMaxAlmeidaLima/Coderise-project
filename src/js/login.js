@@ -4,10 +4,10 @@ document.addEventListener('DOMContentLoaded', function() {
         const usuario = document.getElementById('usuario').value.trim();
         const senha = document.getElementById('senha').value.trim();
 
-        if (usuario === '' || senha === '') {
+        if (usuario !== '' && senha !== '') {
+            window.location.assign('home.html');
+        } else {
             alert('Por favor, preencha ambos os campos.');
-            return;
         }
-        window.location.href = 'home.html';
+        });
     });
-});
