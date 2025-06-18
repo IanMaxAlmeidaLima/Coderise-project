@@ -656,7 +656,7 @@ header{
 .opcoes{
     height: 13rem;
     width: 15rem;
-    display: flex;
+    display: none;
     justify-content: baseline;
     border-radius: 1.5rem;
     background-color: black;
