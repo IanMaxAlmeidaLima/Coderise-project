@@ -77,6 +77,7 @@ header{
 .block1A{
     display: flex;
     justify-content: baseline;
+    position: relative;
 }
 
 .paragrafo1{
@@ -92,6 +93,7 @@ header{
 }
 
 .prompt{
+    position: relative;
     margin-bottom: 12%;
     margin-left: 12%;
     margin-top: 4%;
@@ -649,4 +651,41 @@ header{
 
 .facebook{
     margin-left: 15%;
+}
+
+.opcoes{
+    height: 13rem;
+    width: 15rem;
+    display: flex;
+    justify-content: baseline;
+    border-radius: 1.5rem;
+    background-color: black;
+    position: absolute;
+    left: 70rem;
+}
+
+.opc-icons{
+    margin-top: 10%;
+    margin-left: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.opcoes button{
+    background-color: transparent;
+    border-style: none;
+}
+
+.opc-legendas{
+    margin-top: 12%;
+    width: 150%;
+    color: white;
+    font-family: 'Archivo';
+}
+
+.opc-legendas p{
+    margin-bottom: 18%;
+    margin-left: 10%;
+    width: 100%;
 }
